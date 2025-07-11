@@ -139,7 +139,7 @@ export default function Hero({ setActiveSection }: HeroProps) {
           >
             <button
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-8 py-4 bg-gradient-to-r bg-black border-2 border-gray-600 text-white rounded-full font-medium hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+              className="px-8 py-4 bg-gradient-to-r bg-gray-800 border-2 border-gray-600 text-white rounded-full font-medium hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               View My Work
             </button>
