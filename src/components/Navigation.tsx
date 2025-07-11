@@ -30,7 +30,7 @@ export default function Navigation({ sections, activeSection, onNavigate }: Navi
               transition={{ duration: 0.8 }}
               className="flex-shrink-0"
             >
-              <span className="text-8xl font-bold bg-gradient-to-r text-gray-600 bg-clip-text ">
+              <span className="text-5xl font-bold bg-gradient-to-r text-gray-600 bg-clip-text ">
                 
 
 𝓐 
