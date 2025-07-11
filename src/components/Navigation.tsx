@@ -30,8 +30,12 @@ export default function Navigation({ sections, activeSection, onNavigate }: Navi
               transition={{ duration: 0.8 }}
               className="flex-shrink-0"
             >
-              <span className="text-2xl font-bold bg-gradient-to-r text-gray-600 bg-clip-text ">
-                Abdi
+              <span className="text-4xl font-bold bg-gradient-to-r text-gray-600 bg-clip-text ">
+                
+
+𝓐 
+
+
               </span>
             </motion.div>
 
