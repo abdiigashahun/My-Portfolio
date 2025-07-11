@@ -36,7 +36,7 @@ export default function Contact({ setActiveSection }: ContactProps) {
   });
 const onSubmit = async (data: FormData) => {
   try {
-    const response = await fetch('http://localhost:5000/api/sendMessage', {
+    const response = await fetch('https://backend-portfolio-jcqb.onrender.com/api/sendMessage', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),
