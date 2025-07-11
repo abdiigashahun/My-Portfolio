@@ -77,7 +77,7 @@ export default function About({ setActiveSection }: AboutProps) {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="mt-8 px-8 py-4 bg-gradient-to-r from-purple-500 to-cyan-500 text-white rounded-full font-medium hover:shadow-lg transition-all duration-300"
+              className="mt-8 px-8 py-4 bg-gradient-to-r from-black to-gray-500 text-white rounded-full font-medium hover:shadow-lg transition-all duration-300"
             >
               Download Resume
             </motion.button></a>
